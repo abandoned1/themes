@@ -47,6 +47,8 @@ plugins:
     js/libraries/plugin/pace/pace.js: { pace-options:{ "restartOnRequestAfter": true } }
     js/libraries/plugin/jqgrid/jquery.jqGrid.js: {}
     js/libraries/plugin/jqgrid/grid.locale-en.js: {}
+    js/libraries/plugin/moment/moment.min.js: {}
+    js/libraries/plugin/fullcalendar/jquery.fullcalendar.min.js: {}
 
 font-awesome:
   css:
