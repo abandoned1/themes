@@ -42,14 +42,21 @@ tools:
     - smart/bootstrap
     - smart/plugins
 plugins:
+  css:
+    theme:
+      js/libraries/plugin/fancybox/dist/jquery.fancybox.css: {}
   js:
     js/libraries/plugin/sparkline/jquery.sparkline.js: {}
     js/libraries/plugin/pace/pace.js: { pace-options:{ "restartOnRequestAfter": true } }
     js/libraries/plugin/jqgrid/jquery.jqGrid.js: {}
     js/libraries/plugin/jqgrid/grid.locale-en.js: {}
     js/libraries/plugin/moment/moment.min.js: {}
-    js/libraries/plugin/fullcalendar/jquery.fullcalendar.min.js: {}
-
+    #js/libraries/plugin/fullcalendar/jquery.fullcalendar.min.js: {}
+    js/libraries/plugin/fullcalendar/fullcalendar.js: {}
+    js/libraries/plugin/fancybox/dist/jquery.fancybox.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
 font-awesome:
   css:
     theme:
